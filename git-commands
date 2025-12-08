@@ -1,0 +1,17 @@
+git config --global user.name "rami"
+git config --global user.email "r2120984@gmail.com"
+git config --list
+git clon
+git add .
+git commit -m "фикс бага"
+git branch  список веток
+git branch -m bug-fix   переименовать ветку
+git branch -d bug-fix    удалить ветку
+git branch bug-fix   создать ветку  bug-fix
+git checkout bug-fix   перейти в ветку  bug-fix
+git checkout -b bug-fix  создать ветку bug-fix и сразу перейти в нее  bug-fix
+git merge слияние веток с помощью commit  
+git push origin bug-fix
+git pull origin bug-fix
+git rebase     объединить
+git revert nlkncs6   откат
